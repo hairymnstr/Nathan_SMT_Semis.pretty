@@ -1,4 +1,4 @@
-(module SOT23-5 (layer F.Cu)
+(module SOT23-5 (layer F.Cu) (tedit 548AFA28)
   (descr SOT23-5)
   (attr smd)
   (fp_text reference SOT23-5 (at 0.381 0 90) (layer F.SilkS)
@@ -16,4 +16,9 @@
   (pad 5 smd rect (at 1.27 -0.9525) (size 0.762 0.508) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -1.27 0) (size 0.762 0.508) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd rect (at 1.27 0.9525) (size 0.762 0.508) (layers F.Cu F.Paste F.Mask))
+  (model smd/SOT23_5.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
 )
